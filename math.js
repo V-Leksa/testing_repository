@@ -2,4 +2,4 @@ function returnAddComponents(a,b) {
     return a + b;
 }
 
-export default returnAddComponents;
+module.exports = {returnAddComponents};

@@ -1,5 +1,5 @@
-import returnAddComponents from "./math";
+const {returnAddComponents} = require ("./math");
 //testing comment
-test('adds 2 + 3 to equal 5', () => {
-    expect (returnAddComponents(2,3)).toBe(10);
+test ('adds 2 + 3 to equal 5', () => {
+    expect (returnAddComponents(2,3)).toBe(5);
 });
